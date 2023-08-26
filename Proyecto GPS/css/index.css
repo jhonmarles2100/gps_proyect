@@ -1,0 +1,101 @@
+#logo{
+    width: 40%;
+    height: 10%;
+    
+}
+
+.navbar{
+    background-color: black;
+    display: grid;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-weight: bold;
+    
+    
+}
+
+.btn{
+    margin-left: 280px;
+    background:linear-gradient(yellow,orange);
+  
+}
+/* Codigo CSS DE LAS IMAGENES */
+/* Section styling */
+section#services {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* Marquee styling */
+
+marquee {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+/* Card styling */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+img {
+  width: 350px;
+  height: 400px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+
+}
+/* CODIGO DE IMAGES DE MOVIMIENTOS */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+#imagen{
+        width: 330px;
+        height: 250px;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 1px 10px 25px rgba(0,0,0,0.5);
+        margin: 15px;
+        
+}
+        #imagen1, #imagen1 img, #imagen2, #imagen2 img, #imagen3, #imagen3 img{
+          width: 300px;
+          height: 250px;
+          transition: 0,5ms;
+}
+
+
+  #imagen img:hover{
+          transform: translateX(-30%);
+          filter: brightness(80%)
+          }
